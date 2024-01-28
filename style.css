@@ -3,7 +3,7 @@
 body {
     max-width: 960px;    /* 최대 너비 */
     margin: auto;         /* 마진 auto - 내용을 화면 가운데 맞추기 위해  */
-    font-family: "Noto Sans KR", "Nanum Gothic";        /* 글꼴 - 웹 폰트 */
+    font-family: "Noto Sans KR", "Nanum Gothic"; /* 글꼴 - 웹 폰트 */
     font-size:14px;     /* 글자 크기 */
 }
 
@@ -41,12 +41,19 @@ p {
 hr {
     border: none;
     background-color: lightgray;
-    height: 1px;
+    height: 2px;
 }
 
-h1, h2 {
+h1 {
     font-weight: 100; 
     margin-bottom: 0;
+}
+
+h2 {
+    color: cadetblue;
+    font-weight: 100; 
+    margin-bottom: 0;
+    font-weight: bold;
 }
 
 i {
@@ -58,9 +65,17 @@ i {
 }
 
 #nextLine {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 #etc-else {
-    margin-top: 350px;
+    margin-top: 580px;
+}
+
+.workex {
+    margin-top: 12px;
+}
+
+#firstex, #secondex {
+    font-size: 15px;
 }
